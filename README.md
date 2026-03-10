@@ -14,14 +14,18 @@ Credits to the original dataset authors on Kaggle.
 Features:
 - Gender
 - Married
+- Dependents
 - Education
+- Self_Employed
 - ApplicantIncome
+- CoapplicantIncome
 - LoanAmount
+- Loan_Amount_Term
 - Credit_History
 - Property_Area
 
 Target Variable:
--Loan_Status (Approved / Rejected)
+- Loan_Status (Approved / Rejected)
 
 ## Project Overflow
 1. Data Collection
@@ -56,6 +60,45 @@ Logistic Regression gave the best performance with 83.73% accuracy
   [[18 20]
   
    [0  85]]
+
+## Loan Approval Prediction API
+
+This project builds a machine learning model to predict loan approval 
+based on applicant financial and demographic features.
+
+The trained model is served using a REST API built with FastAPI.
+
+### API Endpoint
+POST /predict
+
+### Example Response
+{
+  "prediction": 1
+}
+
+### API Documentation Interface
+## Loan Approval Prediction API
+
+This project builds a machine learning model to predict loan approval 
+based on applicant financial and demographic features.
+
+The trained model is served using a REST API built with FastAPI.
+
+### API Endpoint
+POST /predict
+
+### Example Response
+{
+  "prediction": 1
+}
+
+### API Documentation Interface
+<img width="2183" height="1955" alt="image" src="https://github.com/user-attachments/assets/97680f01-f903-4dbd-bf70-b09cd6033619" />
+
+
+
+
+
 
 ## Author
 Author: Pragya S
