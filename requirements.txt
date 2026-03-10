@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+scikit-learn
+pandas
+numpy
+# If uvicorn not there--->in terminal, pip install uvicorn
+# or just install everything form this file: pip install -r requirements.txt
